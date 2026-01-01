@@ -1,26 +1,4 @@
-local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/ProjectpopCat/ywxoscripts/main/akaliedited.lua"))();
-local Notify = AkaliNotif.Notify;
-
--- Get game and player info
-local gameName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
-local player = game.Players.LocalPlayer
-local username = player.Name
-
-Notify({
-    UseYWXOcustoms = true, 
-    Title = gameName,
-    TitleTextSize = 15,
-    Description = "Enjoy " .. username,
-    DescriptionTextSize = 11,
-    Duration = 5,
-    ImageID = "17695230289",
-    AutoImageScale = true,
-    ImagePos = "right",
-    ContainerPosition = UDim2.new(0, 20, 0.5, -20);
-})
-
-local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/Qrto1/TestHub/main/source.lua'))()
-
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
     Name = "Nut Hub - " .. gameName,
     LoadingTitle = "Lead the way, don't follow.",
