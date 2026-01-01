@@ -1,7 +1,4 @@
-local Rayfield = local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
-
--- Get the game's name
-local gameName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
     Name = "Nut Hub - " .. gameName,
@@ -314,7 +311,7 @@ local Button = MiscTab:CreateButton({
           local data = {
               ["username"] = 'Bug Hunter', -- Webhook name here
               ["content"] = '',
-              ["avatar_url"] = "https://i.pinimg.com/736x/41/35/a2/4135a2835f33f2ac4150321247e6eeaa.jpg",
+              ["avatar_url"] = "httpinimg.com/736x/41/35/a2/4135a2835f33f2ac4150321247e6eeaa.jpg",
               ["embeds"] = {
                   {
                       ["description"] = "**Bug Reports**",
@@ -2913,3 +2910,4 @@ end
  UICorner.Name = "Looks like"
 
  UICorner.Parent = Frame 
+
