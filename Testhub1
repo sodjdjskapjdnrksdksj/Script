@@ -1,28 +1,4 @@
-local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/ProjectpopCat/ywxoscripts/main/akaliedited.lua"))();
-local Notify = AkaliNotif.Notify;
-
--- Get the game's name
-local gameName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
-
--- Get the player's username
-local player = game.Players.LocalPlayer
-local username = player.Name
-
-Notify({
-    -- ywxocustoms --
-    UseYWXOcustoms = true, 
-    Title = gameName;
-    TitleTextSize = 15,
-    Description = "Enjoy " .. username;
-    DescriptionTextSize = 11,
-    Duration = 5,
-    ImageID = "17695230289",
-    AutoImageScale = true,
-    ImagePos = "right",
-    ContainerPosition =  UDim2.new(0, 20, 0.5, -20);
-})
-
-local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/Qrto1/TestHub/main/source.lua'))()
+local Rayfield = local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 -- Get the game's name
 local gameName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
@@ -316,8 +292,7 @@ local Button = MiscTab:CreateButton({
  
          local newdata = game:GetService("HttpService"):JSONEncode(data)
          local headers = {["Content-Type"] = "application/json"}
-         local request = http_request or request or HttpPost or syn.request
-         local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+         local request = http_request or request orocal abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
  
          request(abcdef)
      end
@@ -2936,4 +2911,5 @@ end
  
  UICorner.CornerRadius = UDim.new(0.25, 0)
  UICorner.Name = "Looks like"
+
  UICorner.Parent = Frame 
